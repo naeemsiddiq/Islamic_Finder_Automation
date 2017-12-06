@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Islamic Finder Test Suite]">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+    <listener class-name="Listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="DateConverter Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.dateconverter.TestDateConverter">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHijriToGregorianDateConverted"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.dateconverter.TestDateConverter -->
+    </classes>
+  </test> <!-- DateConverter Page(failed) -->
+  <test name="Home Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.homepage.TestHomePage">
+        <methods>
+          <include name="testStayUpdatedCardOnHomePage"/>
+          <include name="testPopularSurahAndVersesCardOnHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testTopPlacesInLahoreCardOnHomePage"/>
+          <include name="testPrayerTimesCardOnHomePage"/>
+          <include name="testTopNavBar"/>
+          <include name="testUpcomingEventCardOnHomePage"/>
+          <include name="testIslamicGalleryCardOnHomePage"/>
+          <include name="testVerseOfTheDayCardOnHomePage"/>
+          <include name="testSeeYourMonthlyPrayerbookCardOnHomePage"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.homepage.TestHomePage -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+  <test name="Iqra Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.iqra.TestIqraTheBlogPage">
+        <methods>
+          <include name="testSpiritualityTabOnIqraTheBlogPage"/>
+          <include name="setUp"/>
+          <include name="testMoreCurrentAffairsTabOnIqraTheBlogPage"/>
+          <include name="testUpdatesAndFeaturesTabOnIqraTheBlogPage"/>
+          <include name="testLifestyleTabOnIqraTheBlogPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.iqra.TestIqraTheBlogPage -->
+    </classes>
+  </test> <!-- Iqra Page(failed) -->
+  <test name="Islamic Calendar Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.islamiccalendar.TestIslamicCalendarPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testIslamicCalendarOnAugust1992"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.islamiccalendar.TestIslamicCalendarPage -->
+    </classes>
+  </test> <!-- Islamic Calendar Page(failed) -->
+  <test name="Prayers Times Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.prayertimes.TestPrayersTimesPage">
+        <methods>
+          <include name="testWeeklyMonthlyYearlyCardOnPrayerTimesPage"/>
+          <include name="setUp"/>
+          <include name="testVerseOfTheDayCardOnPrayerTimesPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.prayertimes.TestPrayersTimesPage -->
+    </classes>
+  </test> <!-- Prayers Times Page(failed) -->
+  <test name="Yearly Prayer Times Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.prayertimes.TestYearlyPrayerTimes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testMonthGregorianHijriPrayerTimes"/>
+          <include name="testYearlyGregorianHijriPrayerTimes"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.prayertimes.TestYearlyPrayerTimes -->
+    </classes>
+  </test> <!-- Yearly Prayer Times Page(failed) -->
+  <test name="Special Islamic Days Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.specialislamicdays.TestSpecialIslamicDays">
+        <methods>
+          <include name="testSpecialIslamicDaysCardOnSpecialIslamicDays"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAllIslamicEventsCardOnSpecialIslamicDays"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.specialislamicdays.TestSpecialIslamicDays -->
+    </classes>
+  </test> <!-- Special Islamic Days Page(failed) -->
+  <test name="World Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.worldpage.TestWorldPage">
+        <methods>
+          <include name="testUnitedStatesOnWorldPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.worldpage.TestWorldPage -->
+    </classes>
+  </test> <!-- World Page(failed) -->
+  <test name="AlQuran Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.alquran.TestAlQuranPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testJuzListsOnAlQuranPage"/>
+          <include name="testTopicsListsOnAlQuranPage"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.alquran.TestAlQuranPage -->
+    </classes>
+  </test> <!-- AlQuran Page(failed) -->
+</suite> <!-- Failed suite [Islamic Finder Test Suite] -->
